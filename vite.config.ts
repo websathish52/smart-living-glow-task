@@ -6,5 +6,7 @@ import { defineConfig } from "vite";
 export default defineConfig({
   base: "/smart-living-glow-task/",
   plugins: [react(), tailwindcss()],
-  resolve: { tsconfigPaths: true },
+  resolve: {
+    tsconfigPaths: true,
+  },
 });
